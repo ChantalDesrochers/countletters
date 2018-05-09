@@ -8,7 +8,7 @@ var initialString = process.argv.slice(2);
 var finalObject = {};
 for(var i = 0; i < initialString.length; i++) {
   var word = initialString[i];
-  for(var j = 0; j < word.length; j++) {
+    for(var j = 0; j < word.length; j++) {
 if(finalObject.hasOwnProperty(word[j])) {
     finalObject[word[j]] += 1;
     //
